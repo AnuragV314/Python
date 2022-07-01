@@ -1,0 +1,27 @@
+WARNING:root:warning massage
+ERROR:root:error massage
+CRITICAL:root:critical massage
+WARNING:root:warning massage
+ERROR:root:error massage
+CRITICAL:root:critical massage
+DEBUG:root:debug massage
+INFO:root:info massage
+WARNING:root:warning massage
+ERROR:root:error massage
+CRITICAL:root:critical massage
+INFO:root:A new request came
+INFO:root:Request Precessing Completed
+INFO:root:A new request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/home/anurag/DurgaSir-python/c_53.py", line 19, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Request Precessing Completed
+INFO:root:A new request came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "/home/anurag/DurgaSir-python/c_53.py", line 18, in <module>
+    y = int(input('Enter Second number: '))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request Precessing Completed
