@@ -115,7 +115,7 @@
 
 #     def __init__(self):
 #         print('Parent Constructor.....')      
- 
+
 
 # class Y(X):
 #     def __init__(self):
@@ -124,6 +124,54 @@
 #         super().m1() 
 #         super().m2()
 #         super().m3()
+#         print(super().a)
 # y = Y()
+
+
+
+#
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def eatndrink(self):
+#         print('Biryani Eating and BEER Drinking') 
+
+# class SE(Person):
+#     def __init__(self, name, age, eno, esal):
+#         super().__init__(name, age)
+#         self.eno = eno
+#         self.esal = esal
+#     def work(self):
+#         print('Python coding is somthing like chilled beer')
+
+
+# s = SE('Anurag', 21, 100, 10000)
+# print(s.name, s.age, s.eno, s.esal)
+# s.eatndrink()
+# s.work()
+
+
+
+class A:
+    x = 30
+    def m1(self):
+        self.x = 10
+class B(A):
+    def m1(self):
+        super().m1()
+        self.x = 20
+    def dips(self):
+        print(self.x)
+        print(super().x)            
+b = B()
+b.m1()
+b.dips()
+
+
+
+
+
+
 
 
