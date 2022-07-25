@@ -21,7 +21,7 @@
 # class C(P):
 #     def marry(self):
 #         print('Sunny')
-# (operator overloading)
+# (method overloading)
 
 
 
