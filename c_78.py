@@ -120,7 +120,7 @@ from abc import *
 
 
 
-class CollegeAutomation(ABC):
+class CollegeAutomation(ABC): # interface
     @abstractmethod
     def m1(self): pass
     @abstractmethod
@@ -128,14 +128,14 @@ class CollegeAutomation(ABC):
     @abstractmethod    
     def m3(self): pass
 
-class ImpCla(CollegeAutomation):
+class ImpCla(CollegeAutomation): # abstract class (implementaion but not complete implementaion)
     def m1(self):
         print('m1 method implementation')
 
     def m2(self):
         print('m2 method implementation')
 
-class ConcreateCls(ImpCla):
+class ConcreateCls(ImpCla): # concrete class (complete implementaion)
     def m3(self):
         print('m3 method implementation')    
 
